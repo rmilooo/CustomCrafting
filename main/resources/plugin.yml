@@ -1,0 +1,12 @@
+name: CustomCrafting
+version: '1.0-Beta'
+main: de.drache.customCrafting.main
+api-version: '1.20'
+
+commands:
+
+  craft:
+    description: Opens the Crafting Menu
+    permission: default.craft
+  addRecipe:
+    description: Adds a new crafting recipe
